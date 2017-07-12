@@ -33,6 +33,7 @@ en:
   app_name: "Rails Tutorial"
   sample_app: "Sample App"
   rails_tutorial: "Ruby on Rails Tutorial"
+  rails_tutorial_sample_app: "Ruby on Rails Tutorial Sample App"
   author: "Michael Hartl"
   new: "News"
   the: "The"
@@ -55,6 +56,23 @@ en:
   setting: "Setting"
   account: "Account"
   delete: "Delete"
+  author: "Michael Hartl"
+  header:
+    logo: "sample app"
+    home: "Home"
+    help: "Help"
+    login: "Log in"
+  footer:
+    the: "The"
+    about: "About"
+    contact: "Contact"
+    new: "News"
+    by: "by"
+
+  users:
+    new:
+      sign_up: "Sign up"
+      sentence_1: "This will be a signup page for new users."
   static_pages:
     about:
       title: "About"
@@ -71,7 +89,7 @@ en:
       page: "contact page"
     help:
       title: "Help"
-      entence_1: "Get help on the Ruby on Rails Tutorial at the"
+      sentence_1: "Get help on the Ruby on Rails Tutorial at the"
       sentence_2: "To get help on this sample app, see the"
       rails_help: "Rails Tutorial help section"
       book: "rails tutorial book"
@@ -81,3 +99,6 @@ en:
       sign_up: "Sign Up Now!"
       home_page_show: "This is the home page for"
       rails_app_title: "sample application."
+      sign_up: "Sign up now!!!"
+
+
