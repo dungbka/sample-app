@@ -5,7 +5,9 @@ $color-1: #777;
 $color-2: #222;
 $color-3: #555;
 $color-4: #eaeaea;
+$color-5: #bbb;
 $while-color: #fff;
+$red: #f00;
 
 body {
   padding-top: 60px;
@@ -16,7 +18,11 @@ section {
 }
 
 textarea {
+  border: 1px solid color-5;
+  box-sizing: border-box;
+  margin-bottom: 15px;
   resize: vertical;
+  width: 100%;
 }
 
 .center {
@@ -114,3 +120,88 @@ footer {
     }
   }
 }
+
+// miscellaneous
+.debug-dump {
+  clear: both;
+  float: left;
+  margin-top: 45px;
+  width: 100%;
+}
+
+// sidebar
+
+aside {
+
+  section {
+    margin-top: 20px;
+    padding: 10px 0;
+
+    .user-info {
+      margin-top: 20px;
+    }
+
+    &:first-child {
+      border: 0;
+      padding-top: 0;
+    }
+
+    span {
+      display: block;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
+    h1 {
+      font-size: 1.4em;
+      letter-spacing: -1px;
+      margin-bottom: 3px;
+      margin-top: 0;
+      text-align: left;
+    }
+  }
+}
+
+.gravatar {
+  float: left;
+  margin-right: 10px;
+}
+
+.gravatar-edit {
+  margin-top: 15px;
+}
+
+// forms
+
+
+select {
+  border: 1px solid color-5;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.uneditable-input {
+  border: 1px solid color-5;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+input {
+  border: 1px solid color-5;
+  box-sizing: border-box;
+  height: auto;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.error-explanation {
+  color: $red;
+
+  ul {
+    color: $red;
+    margin: 0 0 30px;
+  }
+}
+

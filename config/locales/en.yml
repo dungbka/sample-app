@@ -57,6 +57,7 @@ en:
   account: "Account"
   delete: "Delete"
   author: "Michael Hartl"
+  url_invaild: "URL invaild!"
   header:
     logo: "sample app"
     home: "Home"
