@@ -111,5 +111,8 @@ en:
       sign_up: "Sign Up Now!"
       home_page_show: "This is the home page for"
       rails_app_title: "sample application."
+  sessions:
+    new:
+      remember: "Remember me on this computer"
 
 
