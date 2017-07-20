@@ -60,6 +60,12 @@ en:
   url_invaild: "URL invaild!"
   sign_up: "Sign Up Now!"
   new_user: "New user?"
+  please_log_in: "Please log in"
+  save_change: "Save changes"
+  change: "change"
+  you_sure: "You sure?"
+  delete: "delete"
+  not_exist_user: "User not exist"
 
   flash:
     danger: "Invalid email/password combination"
@@ -72,6 +78,7 @@ en:
     users: "Users"
     profile: "Profile"
     setting: "Setting"
+    users: "Users"
 
   footer:
     the: "The"
@@ -85,6 +92,17 @@ en:
       sign_up: "Sign up"
       sentence_1: "This will be a signup page for new users."
       confirmation: "Confirmation"
+    update:
+      profile_update: "Profile update"
+    destroy:
+      user_delete: "User deleted"
+    edit:
+      title: "Edit user"
+      update_profile: "Update your profile"
+    index:
+      title: "All users"
+      all_user: "All users"
+
   static_pages:
     about:
       title: "About"
