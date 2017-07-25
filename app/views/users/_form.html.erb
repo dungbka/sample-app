@@ -1,5 +1,5 @@
-<%= form_for @user do |f| %>
-  <%= render "shared/error_messages", errors: @user.errors %>
+<%= form_for user do |f| %>
+  <%= render "shared/error_messages", errors: user.errors %>
 
   <%= f.label :name %>
   <%= f.text_field :name, class: "form-control"%>
