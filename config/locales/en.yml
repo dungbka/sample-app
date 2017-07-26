@@ -132,5 +132,13 @@ en:
   sessions:
     new:
       remember: "Remember me on this computer"
-
-
+    create:
+      account_not_activated: "Account not activated."
+      check_email: "Check your email for the activation link."
+  mailer:
+    hi: "Hi"
+    welcome: ", Welcome to the Sample App! Click on the link below to activate your account:"
+    sample_app: "Sample_app"
+    activated: "Activated"
+    subject: "Account activation"
+    please_check_email: "Please check your email to activate your account."
