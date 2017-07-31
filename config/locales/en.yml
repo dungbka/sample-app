@@ -165,4 +165,17 @@ en:
       reset_password: "Reset password"
       update_password: "Update password"
       confimation: "Confirmation"
-
+  micropost:
+    view_profile: "view my profile"
+    compose_micropost: "Compose new micropost..."
+    post: "Post"
+    posted: "Posted"
+    ago: "ago."
+    you_sure: "You sure"
+    micropost_deleted: "Micropost deleted"
+    maximum_size: "Maximum file size is 5MB. Please choose a smaller file."
+    less_5mb: "should be less than 5Mb"
+    micropost_feed: "Micropost Fee"
+    delete: "delete"
+    micropost: "micropost"
+    micropost_creat: "Micropost create"
