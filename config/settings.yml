@@ -2,3 +2,7 @@ max_content: 140
 picture_size: 5
 picture_type: "image/jpeg,image/gif,image/png"
 gravatar_size: 50
+max_name: 50
+max_length_email: 255
+min_password: 6
+size_gravatar: 30
