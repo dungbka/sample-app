@@ -66,6 +66,11 @@ en:
   you_sure: "You sure?"
   delete: "delete"
   not_exist_user: "User not exist"
+  following: "Following"
+  follower: "Followers"
+  follow: "Follow"
+  unfollow: "Unfollow"
+  micropost: "Microposts:"
 
   flash:
     danger: "Invalid email/password combination"
@@ -102,6 +107,10 @@ en:
     index:
       title: "All users"
       all_user: "All users"
+    following:
+      title: "Following"
+    follower:
+      title: "Follower"
 
   static_pages:
     about:
